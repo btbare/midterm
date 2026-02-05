@@ -1,27 +1,7 @@
-import { useState } from 'react';
+import Page1 from "../components/Page1Component"
 
-export default function Page1() {
+export default function Page(){
 
-    const [background, setBackground] = useState("")
+    <Page1></Page1>
 
-    return(
-        <>
-        <div style={{backgroundColor: background}}>
-
-            <p>text 1</p>
-
-            <button
-                className="background"
-                type="button"
-                onClick={()=>{setBackground("blue")}}
-            >Blue</button>
-
-            <button
-                className="background"
-                type="button"
-                onClick={()=>{setBackground("red")}}
-            >Red</button>
-        </div>
-        </>
-    )
 }

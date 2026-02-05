@@ -1,15 +1,10 @@
+import PageRoutes from "../routes/MyRoutes"
 
 export default function PageSummary() {
 
     return(
         <>
-            <nav>
-                <ul>
-
-
-                
-                </ul>
-            </nav>
+            <PageRoutes></PageRoutes>
         </>
     )
 }
