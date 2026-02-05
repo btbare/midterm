@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom"
 
 export default function PageSummary() {
 
@@ -7,11 +6,7 @@ export default function PageSummary() {
             <nav>
                 <ul>
 
-                    <li>
-                        <NavLink to="/webform/page1">Page1</NavLink>
-                        <NavLink to="/webform/page1">Page1</NavLink>
-                        <NavLink to="/webform/page1">Page1</NavLink>
-                    </li>
+
                 
                 </ul>
             </nav>

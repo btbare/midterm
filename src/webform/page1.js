@@ -7,6 +7,9 @@ export default function Page1() {
     return(
         <>
         <div style={{backgroundColor: background}}>
+
+            <p>text 1</p>
+
             <button
                 className="background"
                 type="button"
