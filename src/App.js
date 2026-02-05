@@ -1,11 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
-import MyRoutes from "./routes/MyRoutes";
+import { Routes, Route } from "react-router-dom";
 import './App.css'
+import PageSummary from "./webform/pageSummary";
 
 export default function App() {
   return (
-      <BrowserRouter>
-        <MyRoutes />
-      </BrowserRouter>
+    <>      
+      <Routes>
+      <Route path="/" element={<PageSummary/>} />
+      </Routes>
+    </>
   )
 }

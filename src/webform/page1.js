@@ -7,7 +7,6 @@ export default function Page1() {
     return(
         <>
         <div style={{backgroundColor: background}}>
-
             <button
                 className="background"
                 type="button"
@@ -19,9 +18,7 @@ export default function Page1() {
                 type="button"
                 onClick={()=>{setBackground("red")}}
             >Red</button>
-
         </div>
-
         </>
     )
 }
